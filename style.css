@@ -5,7 +5,6 @@ body{
     background: linear-gradient(#01012a, #5D63F5);
     background-repeat: no-repeat;
     height: 844px;
-    overflow: hidden;
     margin: 0px;
 }
 
@@ -70,9 +69,6 @@ body{
     width: 60%;
     font-size: 16px;
     color: white;
-
-    border: black;
-    /* border-style: solid; */
 }
 
 .mail{
@@ -82,9 +78,6 @@ body{
     height: 18%;
     width: 60%;
     font-size: 16px;
-
-    border: black;
-    /* border-style: solid; */
 }
 
 .password{
@@ -94,15 +87,12 @@ body{
     height: 18%;
     width: 60%;
     font-size: 16px;
-
-    border: black;
-    /* border-style: solid; */
 }
 
 .input{
     font-family: Inter;
     font-size: 15px;
-    color: white;
+    color: black;
     border-radius: 18px;
     border: none;
     height: 36px;
@@ -117,9 +107,6 @@ body{
     width: 60%;
     font-size: 18px;
     color: white;
-
-    border: black;
-    /* border-style: solid; */
 }
 
 .checkbox2{
@@ -175,7 +162,7 @@ body{
     font-size: 20px;
     color: white;
     border-radius: 18px;
-    background-image: url(left-arrow-angle-big-gross-symbol-removebg-preview.png);
+    background-image: url(left-arrow-angle-big-gross-symbol.png);
     background-size: 50%;
     background-position: center;
     background-repeat: no-repeat;
