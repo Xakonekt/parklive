@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 
 body{
     background: linear-gradient(#01012a, #5D63F5);
     background-repeat: no-repeat;
-    height: 842px;
+    height: 844px;
     overflow: hidden;
     margin: 0px;
 }
@@ -14,13 +15,17 @@ body{
     height: 11%
 }
 
-.logo{
+.around{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0px;
     width: 25%;
-    background-color: lightgray;
+    /* background-color: rgb(169, 255, 152); */
+}
+
+.around, img{
+    width: 25%;
 }
 
 .titre{
@@ -29,11 +34,153 @@ body{
     align-items: center;
     margin: 0px;
     width: 50%;
-    background-color: rgb(175, 175, 175);
+    /* background-color: rgb(115, 177, 109); */
 }
 
 .name{
     font-family: 'Jockey One';
     font-size: 36px;
     color: white;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(224, 143, 143); */
+    height: 78%;
+    font-family: Inter;
+}
+
+.reste{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 40%;
+    width: 100%;
+}
+
+.connexion{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 18%;
+    width: 60%;
+    font-size: 16px;
+    color: white;
+
+    border: black;
+    /* border-style: solid; */
+}
+
+.mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18%;
+    width: 60%;
+    font-size: 16px;
+
+    border: black;
+    /* border-style: solid; */
+}
+
+.password{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18%;
+    width: 60%;
+    font-size: 16px;
+
+    border: black;
+    /* border-style: solid; */
+}
+
+.input{
+    font-family: Inter;
+    font-size: 15px;
+    color: white;
+    border-radius: 18px;
+    border: none;
+    height: 36px;
+    width: 100%;
+}
+
+.stayconnected{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18%;
+    width: 60%;
+    font-size: 18px;
+    color: white;
+
+    border: black;
+    /* border-style: solid; */
+}
+
+.checkbox2{
+    height: 60%;
+    width: 20%;
+    margin: 0;
+}
+
+.text{
+    width: 65%;
+}
+
+.connect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18%;
+    width: 60%;
+    text-align: center;
+}
+
+.btn_connect{
+    font-family: Inter;
+    font-size: 18px;
+    color: white;
+    border-radius: 18px;
+    background-color: #00008a;
+    border: none;
+    height: 36px;
+    width: 100%;
+}
+
+.return2{
+    display: flex;
+    justify-content: center;
+    height: 10%;
+    width: 100%;
+}
+
+.return{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.footer{
+    height: 11%;
+}
+
+.btn_return{
+    font-family: Inter;
+    font-size: 20px;
+    color: white;
+    border-radius: 18px;
+    background-image: url(left-arrow-angle-big-gross-symbol-removebg-preview.png);
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #00008a;
+    border: none;
+    height: 36px;
+    width: 36px;
 }
